@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/* clearfix
+--------------------------------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*.clearfix {
+	overflow: hidden;
+	zoom: 1;
+}*/
+
+/* 基本
+--------------------------------------- */
+body {
+	font-family: 'Verdana', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+	font-size: 12px;
+}
+header h1 {
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	padding: 5px 30px;
+}
+footer p {
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	padding: 3px;
+	text-align: center;
+}
+article h1 {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+p {
+	line-height: 1.8;
+}
+.category {
+	width: 80px;
+	color: white;
+	padding: 2px 0;
+	text-align: center;
+}
+.trend {
+	background-color: orange;
+}
+.beauty {
+	background-color: darkred;
+}
+.lifestyle {
+	background-color: pink;
+}
+
+/* 追記
+--------------------------------------- */
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+article {
+	width: 100%;
+	border-bottom: solid 1px gray;
+}
+.boxleft {
+	width: 45%;
+	float: left;
+	position: relative;
+}
+.boxleft img {
+	width: 100%;
+}
+.boxright {
+	width: 55%;
+	padding: 15px 30px;
+	float: left;
+}
+.category {
+	position: absolute;
+}
+
+/* レスポンシブ対応
+--------------------------------------- */
+@media screen and (max-width: 640px) {
+	#wrapper { width: 100%; }
+	.boxleft {
+		float: none;
+		width: 100%;
+	}
+	.boxright {
+		float: none;
+		width: 100%;
+	}
+}

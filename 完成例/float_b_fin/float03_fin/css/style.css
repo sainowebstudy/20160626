@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Verdana', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+	font-size: 10px;
+}
+
+/* clearfix
+--------------------------------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*.clearfix {
+	overflow: hidden;
+	zoom: 1;
+}*/
+
+/* 基本
+--------------------------------------- */
+header, footer {
+	width: 730px;
+	background-color: black;
+	color: white;
+}
+header h1 {
+	font-size: 24px;
+	padding: 5px 30px;
+}
+footer p {
+	font-size: 10px;
+	padding: 5px 30px;
+	text-align: center;
+}
+h2 { font-size: 11px; }
+.container { background-color: pink; }
+.text h2, .text p { background-color: lightgreen; }
+.photo { background-color: red; }
+p.rank01 { background-color: gold; }
+p.rank02 { background-color: silver; }
+p.rank03 { background-color: chocolate; }
+p.rankother { background-color: lightgray; }
+
+/* 追記
+--------------------------------------- */
+.container {
+	width: 350px;
+	margin: 10px 0;
+}
+.rank {
+	width: 50px;
+	float: left;
+	text-align: center;
+}
+.rank p {
+	width: 20px;
+	margin: 0 auto;
+	padding: 2px;
+}
+.photo {
+	width: 72px;
+	float: left;
+	text-align: center;
+}
+.text {
+	width: 228px;
+	float: left;
+	padding: 0 10px 0;
+}
+.bigcontainer {
+	width: 730px;
+}
+.boxleft { float: left; }
+.boxright {
+	float: left;
+	margin-left: 30px;
+}

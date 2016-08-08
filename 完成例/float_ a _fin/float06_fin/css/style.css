@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Verdana', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+	font-size: 16px;
+}
+
+/* clearfix
+--------------------------------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*.clearfix {
+	overflow: hidden;
+	zoom: 1;
+}*/
+
+/* 追記
+--------------------------------------- */
+#head {
+	background-color: orange;
+	width: 300px;
+	height: 20px;
+}
+#container {
+	background-color: pink;
+	width: 300px;
+}
+.boxleft {
+	background-color: lightgreen;
+	width: 80px;
+	height: 110px;
+	float: left;
+}
+.boxcenter {
+	background-color: yellow;
+	width: 80px;
+	height: 130px;
+	float: left;
+	margin: 0 30px;
+}
+.boxright {
+	background-color: lightblue;
+	width: 80px;
+	height: 150px;
+	float: left;
+}
+#foot {
+	background-color: orange;
+	width: 300px;
+	height: 20px;
+}

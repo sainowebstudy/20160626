@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* clearfix
+--------------------------------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*.clearfix {
+	overflow: hidden;
+	zoom: 1;
+}*/
+
+/* 基本
+--------------------------------------- */
+body {
+	font-family: 'Verdana', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+	font-size: 12px;
+}
+header h1 {
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	padding: 5px 30px;
+}
+footer p {
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	padding: 3px;
+	text-align: center;
+}
+article h1 {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+p {
+	line-height: 1.8;
+}
+
+/* 追記
+--------------------------------------- */
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+article {
+	width: 800px;
+	border-bottom: solid 1px gray;
+}
+.boxleft {
+	width: 350px;
+	float: left;
+}
+.boxleft img {
+	width: 100%;
+}
+.boxright {
+	width: 450px;
+	padding: 15px 30px;
+	float: left;
+}

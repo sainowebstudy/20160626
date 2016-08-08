@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* clearfix
+--------------------------------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*.clearfix {
+	overflow: hidden;
+	zoom: 1;
+}*/
+
+/* 基本
+--------------------------------------- */
+body {
+	font-family: 'Verdana', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+	font-size: 12px;
+}
+header h1 {
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	padding: 5px 30px;
+}
+footer p {
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	padding: 3px;
+	text-align: center;
+}
+article h1 {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+p {
+	line-height: 1.8;
+}
+
+/* 追記
+--------------------------------------- */
+/*
+全体：横幅 800px 中央揃え
+各記事の下に罫線：種類：実線 太さ：1px 色：gray
+写真：横幅 350px
+文章：横幅 450px
+*/
+
